@@ -1,4 +1,4 @@
-<!-- ⚠️ This README has been generated from the file(s) "blueprint.md" ⚠️-->{{template:title}}
+<!-- ⚠️ This README has been generated from the file(s) "blueprint.md" ⚠️--><h1 align="center">Boids</h1>
 <p align="center">
   <img src="images/boids.png" alt="Logo" width="550" height="auto" />
 </p>
