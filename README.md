@@ -9,6 +9,10 @@
 ## ➤ Table of Contents
 
 * [➤ :pencil: About The Project](#-pencil-about-the-project)
+	* [Overview](#overview)
+	* [Principles](#principles)
+	* [Performance](#performance)
+	* [Website](#website)
 * [➤ :rocket: Dependencies](#-rocket-dependencies)
 * [➤ :floppy_disk: Key Project File Description](#-floppy_disk-key-project-file-description)
 * [➤ :coffee: Buy me a coffee](#-coffee-buy-me-a-coffee)
@@ -20,15 +24,21 @@
 
 ## ➤ :pencil: About The Project
 
-This project is an interactive 3D-rendered flock simulation inspired by the pioneering work of [Craig Reynolds](https://www.red3d.com/cwr/index.html) in his 1987 [paper](https://www.red3d.com/cwr/boids/). The project brings to life the fascinating dynamics of flock behaviour with over 1000 individual Boids that closely follow the principles outlined in Reynolds' paper. The heart of this simulation lies in implementing three crucial rules: Alignment, Separation, and Cohesion.
+### Overview
+[This](https://boids.theo-moore-calters.online) project is an interactive 3D-rendered flock simulation inspired by the pioneering work of [Craig Reynolds](https://www.red3d.com/cwr/index.html) in his 1987 [paper](https://www.red3d.com/cwr/boids/). The project brings to life the fascinating dynamics of flock behaviour with over 1000 individual Boids that closely follow the principles outlined in Reynolds' paper. The heart of this simulation lies in implementing three crucial rules: Alignment, Separation, and Cohesion.
 
+### Principles
 **Alignment:** Each Boid in the simulation attempts to align its velocity with its neighbouring Boids. This rule creates the illusion of birds flying in the same general direction, maintaining a sense of unity within the flock.
 
 **Separation:** Boids actively avoid colliding with their peers by calculating the direction towards other Boids and applying the opposite direction to their velocity. This behaviour results in the characteristic avoidance of collisions. It is fundamental in creating the appearance of individual Boids manoeuvring within the flock.
 
 **Cohesion:** To mimic the natural tendency of birds sticking together, Boids are drawn towards the average position of their nearby companions. This cohesion rule ensures the flock remains relatively tightly knit and exhibits the graceful and cohesive movement observed in real-life bird flocks.
 
+### Performance
+
 To enhance the performance of this simulation, I use a quad-tree data structure. Quad-trees facilitate efficient spatial partitioning of the Boids within the 3D world by recursively dividing the simulation space into smaller quadrants, with each quadrant containing a subset of Boids. This partitioning significantly improves the computational efficiency of the simulation, allowing it to run smoothly even when dealing with a large number of Boids. It helps each Boid effectively search for nearby Boids and apply the three principles in O(nlogn) time, contributing to the overall realism and smoothness of the flocking behaviour.
+
+### Website
 
 You can experience this mesmerizing 3D flock simulation at [boids.theo-moore-calters.online](https://boids.theo-moore-calters.online). It beautifully captures the essence of bird-like flocking behaviour, demonstrating the elegance and simplicity of the principles put forth by Craig Reynolds in his iconic Boids paper.
 
