@@ -45,10 +45,12 @@ The project is built using **Vite** and implemented in **JavaScript**. For the v
 
 ## ➤ :floppy_disk: Key Project File Description
 
-*  The `main.ts` file is the entry point for the A* search algorithm maze demonstration, responsible for initializing the scene, camera, and controls, managing the animation loop, and handling user interactions.
-* The `maze.ts` file encapsulates the core logic for generating and managing the maze within the demonstration. It includes methods for setting up the maze grid, creating it, and managing its state.
-* The `mazeCell.ts` class represents the logic for individual cells in the maze. It contains various properties and methods to manage the state and appearance of each cell.
-* The `AStarMazeSolver` class is responsible for implementing the A* algorithm to solve a maze.
+* The [`main.js`](code/main.js) file initializes the 3D flock simulation with Boids. It runs the principles of alignment, cohesion, and separation on each boid every frame. Key functionalities include creating a scene, camera, and renderer, handling user input for enabling/disabling principles and boid movement, and updating the simulation's state. The code also manages the insertion of Boids into the Quad-tree.
+*  The [`boidAgent.js`](code/boidAgent.js) file represents individual boids in a 3D flock simulation. Each boid's behaviour is governed by principles of alignment, cohesion, and separation. The class handles boid movement, rotation, and interaction with neighbouring Boids using quad-tree spatial partitioning for efficient performance.
+*  The [`quadTree.js`](code/quadTree.js) file defines a spatial data structure for efficient region-based querying of objects. It subdivides a given area into quadrants and organises objects within these quadrants. Key functions include insertion, finding objects within a specified range, and dividing the area into smaller quadrants when needed. Has complexity O(nlogn), read more [here](https://en.wikipedia.org/wiki/Quadtree).
+*  The [`keyBoardInputs.js`](code/keyBoardInputs.js) file is a simple logger for keyboard inputs.
+
+
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cloudy.png)](#coffee-buy-me-a-coffee)
 
@@ -67,9 +69,8 @@ Theo Moore-Calters
 
 [![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/i1Cps) [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/theo-moore-calters)
 
-
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cloudy.png)](#license)
 
 ## ➤ License
 	
-Licensed under [license](https://opensource.org/licenses/license).
+Licensed under [MIT](https://opensource.org/licenses/MIT).
