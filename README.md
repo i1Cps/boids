@@ -1,6 +1,6 @@
-<!-- ⚠️ This README has been generated from the file(s) "blueprint.md" ⚠️--><h1 align="center">Boids</h1>
+<!-- ⚠️ This README has been generated from the file(s) "blueprint.md" ⚠️--><h1 align="center"><a href="https://boids.theo-moore-calters.online">Boids</h1>
 <p align="center">
-  <img src="images/boids.png" alt="Logo" width="550" height="auto" />
+  <img src="images/boids.png" alt="Logo" width="450" height="auto" />
 </p>
 
 
