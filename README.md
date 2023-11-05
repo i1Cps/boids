@@ -29,7 +29,7 @@
 [This project](https://boids.theo-moore-calters.online) is an interactive 3D-rendered flock simulation inspired by the pioneering work of [Craig Reynolds](https://www.red3d.com/cwr/index.html) in his 1987 [paper](https://www.red3d.com/cwr/boids/). The project brings to life the fascinating dynamics of flock behaviour with over 1000 individual Boids that closely follow the principles outlined in Reynolds' paper. The heart of this simulation lies in implementing three crucial rules: Alignment, Separation, and Cohesion.
 
 <p align="center">
-  <img src="images/moving_boids.gif" alt="Logo" width="500" height="auto" />
+  <img src="images/moving_boids.gif" alt="Logo" width="400" height="auto" />
 </p>
 
 ### Principles
