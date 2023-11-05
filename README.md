@@ -14,6 +14,7 @@
 	* [Performance](#performance)
 	* [Website](#website)
 * [➤ :rocket: Dependencies](#-rocket-dependencies)
+* [➤ :hammer: Usage](#-hammer-usage)
 * [➤ :floppy_disk: Key Project File Description](#-floppy_disk-key-project-file-description)
 * [➤ :coffee: Buy me a coffee](#-coffee-buy-me-a-coffee)
 * [➤ :scroll: Credits](#-scroll-credits)
@@ -25,7 +26,9 @@
 ## ➤ :pencil: About The Project
 
 ### Overview
-[This](https://boids.theo-moore-calters.online) project is an interactive 3D-rendered flock simulation inspired by the pioneering work of [Craig Reynolds](https://www.red3d.com/cwr/index.html) in his 1987 [paper](https://www.red3d.com/cwr/boids/). The project brings to life the fascinating dynamics of flock behaviour with over 1000 individual Boids that closely follow the principles outlined in Reynolds' paper. The heart of this simulation lies in implementing three crucial rules: Alignment, Separation, and Cohesion.
+[This project](https://boids.theo-moore-calters.online) is an interactive 3D-rendered flock simulation inspired by the pioneering work of [Craig Reynolds](https://www.red3d.com/cwr/index.html) in his 1987 [paper](https://www.red3d.com/cwr/boids/). The project brings to life the fascinating dynamics of flock behaviour with over 1000 individual Boids that closely follow the principles outlined in Reynolds' paper. The heart of this simulation lies in implementing three crucial rules: Alignment, Separation, and Cohesion.
+
+![](images/moving_boids.gif)
 
 ### Principles
 **Alignment:** Each Boid in the simulation attempts to align its velocity with its neighbouring Boids. This rule creates the illusion of birds flying in the same general direction, maintaining a sense of unity within the flock.
@@ -50,6 +53,33 @@ The project is built using **Vite** and implemented in **JavaScript**. For the v
   
 ![Vite Badge](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=fff&style=for-the-badge) ![Three.js Badge](https://img.shields.io/badge/Three.js-000?logo=threedotjs&logoColor=fff&style=for-the-badge)
  ![JavaScript Badge](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=for-the-badge)
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cloudy.png)](#hammer-usage)
+
+## ➤ :hammer: Usage
+ The easiest way to play with the simulation is through the [website](https://theo-moore-calters.online). Users can rotate the world by clicking and dragging with their mouse. Users can also play with the principles by toggling them:
+ 
+ - Press `S` to toggle the seperation principle (boids will stop actively avoiding collision with each other)
+ - Press `C` to toggle the cohesion principle (boids will stop actively clustering)
+ - Press `A` to toggle the allignment principle 
+ 
+Also:
+- Press `M` to toggle boid movement
+
+Users can also quickly setup a [local Vite App](https://vitejs.dev/guide/) and git clone if they wish to play with the code. Something like:
+
+```
+npm create vite@latest
+```
+
+```
+git clone https://github.com/i1Cps/boids.git
+```
+
+```
+npm i
+npm run dev
+```
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cloudy.png)](#floppy_disk-key-project-file-description)
 
