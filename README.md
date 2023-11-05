@@ -1,10 +1,10 @@
 <!-- ⚠️ This README has been generated from the file(s) "blueprint.md" ⚠️--><h1 align="center"><a href="https://boids.theo-moore-calters.online">Boids</h1>
 <p align="center">
-  <img src="images/boids.png" alt="Logo" width="450" height="auto" />
+  <img src="images/boids.png" alt="Logo" width="550" height="auto" />
 </p>
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cloudy.png)](#table-of-contents)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](#table-of-contents)
 
 ## ➤ Table of Contents
 
@@ -21,7 +21,7 @@
 * [➤ License](#-license)
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cloudy.png)](#pencil-about-the-project)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](#pencil-about-the-project)
 
 ## ➤ :pencil: About The Project
 
@@ -47,7 +47,7 @@ To enhance the performance of this simulation, I use a [quad-tree](https://en.wi
 
 You can experience this mesmerizing 3D flock simulation at [boids.theo-moore-calters.online](https://boids.theo-moore-calters.online). It beautifully captures the essence of bird-like flocking behaviour, demonstrating the elegance and simplicity of the principles put forth by Craig Reynolds in his iconic Boids paper.
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cloudy.png)](#rocket-dependencies)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](#rocket-dependencies)
 
 ## ➤ :rocket: Dependencies
 
@@ -56,7 +56,7 @@ The project is built using **Vite** and implemented in **JavaScript**. For the v
 ![Vite Badge](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=fff&style=for-the-badge) ![Three.js Badge](https://img.shields.io/badge/Three.js-000?logo=threedotjs&logoColor=fff&style=for-the-badge)
  ![JavaScript Badge](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=for-the-badge)
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cloudy.png)](#hammer-usage)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](#hammer-usage)
 
 ## ➤ :hammer: Usage
  The easiest way to play with the simulation is through the [website](https://boids.theo-moore-calters.online). Users can rotate the world by clicking and dragging with their mouse. Users can also play with the principles by toggling them:
@@ -81,7 +81,7 @@ npm i
 npm run dev
 ```
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cloudy.png)](#floppy_disk-key-project-file-description)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](#floppy_disk-key-project-file-description)
 
 ## ➤ :floppy_disk: Key Project File Description
 
@@ -92,7 +92,7 @@ npm run dev
 
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cloudy.png)](#coffee-buy-me-a-coffee)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](#coffee-buy-me-a-coffee)
 
 ## ➤ :coffee: Buy me a coffee
 Whether you use this project, have learned something from it, or just like it, please consider supporting it by buying me a coffee, so I can dedicate more time on open-source projects like this (҂⌣̀_⌣́)
@@ -100,7 +100,7 @@ Whether you use this project, have learned something from it, or just like it, p
 <a href="https://www.buymeacoffee.com/i1Cps" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cloudy.png)](#scroll-credits)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](#scroll-credits)
 
 ## ➤ :scroll: Credits
 
@@ -109,7 +109,7 @@ Theo Moore-Calters
 
 [![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/i1Cps) [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/theo-moore-calters)
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cloudy.png)](#license)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](#license)
 
 ## ➤ License
 	
