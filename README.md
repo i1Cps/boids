@@ -28,7 +28,9 @@
 ### Overview
 [This project](https://boids.theo-moore-calters.online) is an interactive 3D-rendered flock simulation inspired by the pioneering work of [Craig Reynolds](https://www.red3d.com/cwr/index.html) in his 1987 [paper](https://www.red3d.com/cwr/boids/). The project brings to life the fascinating dynamics of flock behaviour with over 1000 individual Boids that closely follow the principles outlined in Reynolds' paper. The heart of this simulation lies in implementing three crucial rules: Alignment, Separation, and Cohesion.
 
-![](images/moving_boids.gif)
+<p align="center">
+  <img src="images/moving_boids.gif" alt="Logo" width="500" height="auto" />
+</p>
 
 ### Principles
 **Alignment:** Each Boid in the simulation attempts to align its velocity with its neighbouring Boids. This rule creates the illusion of birds flying in the same general direction, maintaining a sense of unity within the flock.
@@ -57,7 +59,7 @@ The project is built using **Vite** and implemented in **JavaScript**. For the v
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cloudy.png)](#hammer-usage)
 
 ## ➤ :hammer: Usage
- The easiest way to play with the simulation is through the [website](https://theo-moore-calters.online). Users can rotate the world by clicking and dragging with their mouse. Users can also play with the principles by toggling them:
+ The easiest way to play with the simulation is through the [website](https://boids.theo-moore-calters.online). Users can rotate the world by clicking and dragging with their mouse. Users can also play with the principles by toggling them:
  
  - Press `S` to toggle the seperation principle (boids will stop actively avoiding collision with each other)
  - Press `C` to toggle the cohesion principle (boids will stop actively clustering)
@@ -68,15 +70,13 @@ Also:
 
 Users can also quickly setup a [local Vite App](https://vitejs.dev/guide/) and git clone if they wish to play with the code. Something like:
 
-```
-npm create vite@latest
-```
 
 ```
 git clone https://github.com/i1Cps/boids.git
 ```
 
 ```
+cd boids/code
 npm i
 npm run dev
 ```
@@ -88,7 +88,7 @@ npm run dev
 * The [`main.js`](code/main.js) file initializes the 3D flock simulation with Boids. It runs the principles of alignment, cohesion, and separation on each boid every frame. Key functionalities include creating a scene, camera, and renderer, handling user input for enabling/disabling principles and boid movement, and updating the simulation's state. The code also manages the insertion of Boids into the Quad-tree.
 *  The [`boidAgent.js`](code/boidAgent.js) file represents individual boids in a 3D flock simulation. Each boid's behaviour is governed by principles of alignment, cohesion, and separation. The class handles boid movement, rotation, and interaction with neighbouring Boids using quad-tree spatial partitioning for efficient performance.
 *  The [`quadTree.js`](code/quadTree.js) file defines a spatial data structure for efficient region-based querying of objects. It subdivides a given area into quadrants and organises objects within these quadrants. Key functions include insertion, finding objects within a specified range, and dividing the area into smaller quadrants when needed. Has complexity O(nlogn), read more [here](https://en.wikipedia.org/wiki/Quadtree).
-*  The [`keyBoardInputs.js`](code/keyBoardInputs.js) file is a simple logger for keyboard inputs.
+*  The [`keyBoardInputs.js`](code/keyboardInputs.js) file is a simple logger for keyboard inputs.
 
 
 
