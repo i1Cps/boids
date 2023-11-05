@@ -41,7 +41,7 @@
 
 ### Performance
 
-To enhance the performance of this simulation, I use a [quad-tree](https://en.wikipedia.org/wiki/Quadtree) data structure. Quad-trees facilitate efficient spatial partitioning of the Boids within the 3D world by recursively dividing the simulation space into smaller quadrants, with each quadrant containing a subset of Boids. This partitioning significantly improves the computational efficiency of the simulation, allowing it to run smoothly even when dealing with a large number of Boids. It helps each Boid effectively search for nearby Boids and apply the three principles in O(nlogn) time, contributing to the overall realism and smoothness of the flocking behaviour.
+To enhance the performance of this simulation, I use a [quad-tree](https://en.wikipedia.org/wiki/Quadtree) data structure. Quad-trees facilitate efficient spatial partitioning of the Boids within the 3D world by recursively dividing the simulation space into smaller quadrants, with each quadrant containing a subset of Boids. This partitioning significantly improves the computational efficiency of the simulation, allowing it to run smoothly even when dealing with a large number of Boids. It helps each Boid effectively search for nearby Boids and apply the three principles in O(logn) time, meaning the simulation runs in O(nlogn) where n is the number of boids, contributing to the overall realism and smoothness of the flocking behaviour.
 
 ### Website
 
